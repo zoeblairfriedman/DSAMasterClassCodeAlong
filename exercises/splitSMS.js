@@ -21,7 +21,7 @@ while (i <= j){
     }
   }
 }
-console.log(result)
+return result;
 }
 
 /*
