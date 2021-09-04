@@ -1,5 +1,4 @@
 what combos for a vanity phone number
-
 break up a text into sms chunks
 
 liked the team the people who she worked with 
