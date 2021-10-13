@@ -1,4 +1,4 @@
-// HERE IS THE FUNCTION TO SPLIT A TEXT INTO 160 CHARACTER CHUNKS!!! 
+// HERE IS THE FUNCTION TO SPLIT A TEXT INTO 160 CHARACTER CHUNKS WITHOUT SPLITTING WORDS!!! 
 
 function splitSMS(text){
 let result = []
@@ -10,7 +10,7 @@ while (i <= j){
    break;
   } else {
     let count = 160
-    while (text[count] !== " ") { count--}
+    while (text[count] !== " ") count--
     result.push(text.split("", count).join(""))
     text = text.slice(count)
     if (text.length > 160) {
